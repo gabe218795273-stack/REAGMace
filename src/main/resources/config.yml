@@ -1,0 +1,27 @@
+# REAGMace Configuration
+
+damage:
+  base: 9.0
+  bonus-per-block: 2.0
+  max-bonus: 40.0
+
+knockback:
+  enabled: true
+  radius: 4
+  strength: 1.8
+  vertical: 0.8
+
+effects:
+  particles: true
+  sound: true
+
+windburst:
+  enabled: true
+  launch: 1.2
+
+breach:
+  enabled: true
+  bonus-damage: 3.0
+
+density:
+  enabled: true
