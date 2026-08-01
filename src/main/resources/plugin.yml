@@ -1,0 +1,19 @@
+name: REAGMace
+version: 1.0
+main: me.reag.mace.REAGMace
+author: Gabe
+description: A custom 1.21-style Mace plugin for Bukkit 1.12.2
+api-version: 1.12
+
+commands:
+  mace:
+    description: Gives you a custom mace
+    usage: /mace
+    permission: reagmace.command
+
+permissions:
+  reagmace.command:
+    default: op
+
+  reagmace.use:
+    default: true
